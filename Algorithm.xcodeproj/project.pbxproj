@@ -25,6 +25,41 @@
 /* Begin PBXFileReference section */
 		6EE87E3628E78009004CDC5A /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EE87E3928E7800A004CDC5A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6EE87E4128E7803C004CDC5A /* 2745_진법 변환.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2745_진법 변환.swift"; sourceTree = "<group>"; };
+		6EE87E4228E7803C004CDC5A /* 12840_창용이의 시계.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "12840_창용이의 시계.swift"; sourceTree = "<group>"; };
+		6EE87E4328E7803C004CDC5A /* 2745 진법 변환.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2745 진법 변환.swift"; sourceTree = "<group>"; };
+		6EE87E4528E7803C004CDC5A /* 예시 - 너비 우선 탐색.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "예시 - 너비 우선 탐색.swift"; sourceTree = "<group>"; };
+		6EE87E4628E7803C004CDC5A /* 예시 - 깊이 우선 탐색.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "예시 - 깊이 우선 탐색.swift"; sourceTree = "<group>"; };
+		6EE87E4928E7803C004CDC5A /* Lv1 - 실패율.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lv1 - 실패율.swift"; sourceTree = "<group>"; };
+		6EE87E4A28E7803C004CDC5A /* Lv.1 체육복.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lv.1 체육복.swift"; sourceTree = "<group>"; };
+		6EE87E4B28E7803C004CDC5A /* Lv.1 [1차] 비밀지도.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lv.1 [1차] 비밀지도.swift"; sourceTree = "<group>"; };
+		6EE87E4C28E7803C004CDC5A /* Lv.1 로또 최고 순위와 최저 순위.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lv.1 로또 최고 순위와 최저 순위.swift"; sourceTree = "<group>"; };
+		6EE87E4D28E7803C004CDC5A /* Lv.1 이상한 문자 만들기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lv.1 이상한 문자 만들기.swift"; sourceTree = "<group>"; };
+		6EE87E4E28E7803C004CDC5A /* Lv.1 x만큼 간격이 있는 n개의 숫자.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Lv.1 x만큼 간격이 있는 n개의 숫자.md"; sourceTree = "<group>"; };
+		6EE87E4F28E7803C004CDC5A /* Lv.1 서울에서 김서방 찾기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lv.1 서울에서 김서방 찾기.swift"; sourceTree = "<group>"; };
+		6EE87E5028E7803C004CDC5A /* Lv.1 K번째수.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lv.1 K번째수.swift"; sourceTree = "<group>"; };
+		6EE87E5128E7803C004CDC5A /* Lv1 - 키패드 누르기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lv1 - 키패드 누르기.swift"; sourceTree = "<group>"; };
+		6EE87E5228E7803C004CDC5A /* Lv.1 크레인 인형뽑기 게임.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lv.1 크레인 인형뽑기 게임.swift"; sourceTree = "<group>"; };
+		6EE87E5328E7803C004CDC5A /* Lv.1 평균 구하기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lv.1 평균 구하기.swift"; sourceTree = "<group>"; };
+		6EE87E5428E7803C004CDC5A /* Lv.1 모의고사.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lv.1 모의고사.swift"; sourceTree = "<group>"; };
+		6EE87E5528E7803C004CDC5A /* Lv1 - 비밀지도.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lv1 - 비밀지도.swift"; sourceTree = "<group>"; };
+		6EE87E5628E7803C004CDC5A /* Lv.1 2016년.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lv.1 2016년.swift"; sourceTree = "<group>"; };
+		6EE87E5728E7803C004CDC5A /* Lv.1 실패율.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lv.1 실패율.swift"; sourceTree = "<group>"; };
+		6EE87E5828E7803C004CDC5A /* Lv.1 콜라즈 추측.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Lv.1 콜라즈 추측.md"; sourceTree = "<group>"; };
+		6EE87E5928E7803C004CDC5A /* Lv.1 숫자 문자열과 영단어.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lv.1 숫자 문자열과 영단어.swift"; sourceTree = "<group>"; };
+		6EE87E5A28E7803C004CDC5A /* Lv.1 가운데 글자 가져오기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lv.1 가운데 글자 가져오기.swift"; sourceTree = "<group>"; };
+		6EE87E5B28E7803C004CDC5A /* Lv.1 문자열 내 마음대로 정렬하기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lv.1 문자열 내 마음대로 정렬하기.swift"; sourceTree = "<group>"; };
+		6EE87E5C28E7803C004CDC5A /* Lv.1 신고 결과 받기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lv.1 신고 결과 받기.swift"; sourceTree = "<group>"; };
+		6EE87E5D28E7803C004CDC5A /* Lv.1 키패드 누르기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lv.1 키패드 누르기.swift"; sourceTree = "<group>"; };
+		6EE87E5E28E7803C004CDC5A /* Lv1 - 로또 최고 순위와 최저 순위.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lv1 - 로또 최고 순위와 최저 순위.swift"; sourceTree = "<group>"; };
+		6EE87E5F28E7803C004CDC5A /* Lv.1 신규 아이디 추천.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lv.1 신규 아이디 추천.swift"; sourceTree = "<group>"; };
+		6EE87E6028E7803C004CDC5A /* Lv.1 [1차] 다트 게임.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lv.1 [1차] 다트 게임.swift"; sourceTree = "<group>"; };
+		6EE87E6328E7803C004CDC5A /* Lv.2 피보나치 수.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Lv.2 피보나치 수.md"; sourceTree = "<group>"; };
+		6EE87E6428E7803C004CDC5A /* Lv.2 [1차] 캐시.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lv.2 [1차] 캐시.swift"; sourceTree = "<group>"; };
+		6EE87E6528E7803C004CDC5A /* Lv.2 튜플.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lv.2 튜플.swift"; sourceTree = "<group>"; };
+		6EE87E6628E7803C004CDC5A /* Lv.2 오픈채팅방.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lv.2 오픈채팅방.swift"; sourceTree = "<group>"; };
+		6EE87E6728E7803C004CDC5A /* Lv.2 타겟 넘버.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lv.2 타겟 넘버.swift"; sourceTree = "<group>"; };
+		6EE87E8828E780DA004CDC5A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +76,7 @@
 		6EE87E2D28E78009004CDC5A = {
 			isa = PBXGroup;
 			children = (
-				6EE87E3828E78009004CDC5A /* Algorithm */,
+				6EE87E3828E78009004CDC5A /* Scripts */,
 				6EE87E3728E78009004CDC5A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +89,87 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6EE87E3828E78009004CDC5A /* Algorithm */ = {
+		6EE87E3828E78009004CDC5A /* Scripts */ = {
 			isa = PBXGroup;
 			children = (
 				6EE87E3928E7800A004CDC5A /* main.swift */,
+				6EE87E4028E7803C004CDC5A /* BOJ */,
+				6EE87E4428E7803C004CDC5A /* ETC */,
+				6EE87E4728E7803C004CDC5A /* Programmers */,
+				6EE87E8828E780DA004CDC5A /* README.md */,
 			);
-			path = Algorithm;
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		6EE87E4028E7803C004CDC5A /* BOJ */ = {
+			isa = PBXGroup;
+			children = (
+				6EE87E4128E7803C004CDC5A /* 2745_진법 변환.swift */,
+				6EE87E4228E7803C004CDC5A /* 12840_창용이의 시계.swift */,
+				6EE87E4328E7803C004CDC5A /* 2745 진법 변환.swift */,
+			);
+			path = BOJ;
+			sourceTree = "<group>";
+		};
+		6EE87E4428E7803C004CDC5A /* ETC */ = {
+			isa = PBXGroup;
+			children = (
+				6EE87E4528E7803C004CDC5A /* 예시 - 너비 우선 탐색.swift */,
+				6EE87E4628E7803C004CDC5A /* 예시 - 깊이 우선 탐색.swift */,
+			);
+			path = ETC;
+			sourceTree = "<group>";
+		};
+		6EE87E4728E7803C004CDC5A /* Programmers */ = {
+			isa = PBXGroup;
+			children = (
+				6EE87E4828E7803C004CDC5A /* Lv.1 */,
+				6EE87E6228E7803C004CDC5A /* Lv.2 */,
+			);
+			path = Programmers;
+			sourceTree = "<group>";
+		};
+		6EE87E4828E7803C004CDC5A /* Lv.1 */ = {
+			isa = PBXGroup;
+			children = (
+				6EE87E4928E7803C004CDC5A /* Lv1 - 실패율.swift */,
+				6EE87E4A28E7803C004CDC5A /* Lv.1 체육복.swift */,
+				6EE87E4B28E7803C004CDC5A /* Lv.1 [1차] 비밀지도.swift */,
+				6EE87E4C28E7803C004CDC5A /* Lv.1 로또 최고 순위와 최저 순위.swift */,
+				6EE87E4D28E7803C004CDC5A /* Lv.1 이상한 문자 만들기.swift */,
+				6EE87E4E28E7803C004CDC5A /* Lv.1 x만큼 간격이 있는 n개의 숫자.md */,
+				6EE87E4F28E7803C004CDC5A /* Lv.1 서울에서 김서방 찾기.swift */,
+				6EE87E5028E7803C004CDC5A /* Lv.1 K번째수.swift */,
+				6EE87E5128E7803C004CDC5A /* Lv1 - 키패드 누르기.swift */,
+				6EE87E5228E7803C004CDC5A /* Lv.1 크레인 인형뽑기 게임.swift */,
+				6EE87E5328E7803C004CDC5A /* Lv.1 평균 구하기.swift */,
+				6EE87E5428E7803C004CDC5A /* Lv.1 모의고사.swift */,
+				6EE87E5528E7803C004CDC5A /* Lv1 - 비밀지도.swift */,
+				6EE87E5628E7803C004CDC5A /* Lv.1 2016년.swift */,
+				6EE87E5728E7803C004CDC5A /* Lv.1 실패율.swift */,
+				6EE87E5828E7803C004CDC5A /* Lv.1 콜라즈 추측.md */,
+				6EE87E5928E7803C004CDC5A /* Lv.1 숫자 문자열과 영단어.swift */,
+				6EE87E5A28E7803C004CDC5A /* Lv.1 가운데 글자 가져오기.swift */,
+				6EE87E5B28E7803C004CDC5A /* Lv.1 문자열 내 마음대로 정렬하기.swift */,
+				6EE87E5C28E7803C004CDC5A /* Lv.1 신고 결과 받기.swift */,
+				6EE87E5D28E7803C004CDC5A /* Lv.1 키패드 누르기.swift */,
+				6EE87E5E28E7803C004CDC5A /* Lv1 - 로또 최고 순위와 최저 순위.swift */,
+				6EE87E5F28E7803C004CDC5A /* Lv.1 신규 아이디 추천.swift */,
+				6EE87E6028E7803C004CDC5A /* Lv.1 [1차] 다트 게임.swift */,
+			);
+			path = Lv.1;
+			sourceTree = "<group>";
+		};
+		6EE87E6228E7803C004CDC5A /* Lv.2 */ = {
+			isa = PBXGroup;
+			children = (
+				6EE87E6328E7803C004CDC5A /* Lv.2 피보나치 수.md */,
+				6EE87E6428E7803C004CDC5A /* Lv.2 [1차] 캐시.swift */,
+				6EE87E6528E7803C004CDC5A /* Lv.2 튜플.swift */,
+				6EE87E6628E7803C004CDC5A /* Lv.2 오픈채팅방.swift */,
+				6EE87E6728E7803C004CDC5A /* Lv.2 타겟 넘버.swift */,
+			);
+			path = Lv.2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
