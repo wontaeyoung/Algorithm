@@ -5,6 +5,7 @@
 //  Created by 원태영 on 2022/10/03.
 //
 
+
 import Foundation
 /* -- ~2차 시도까지의 흔적
  
@@ -67,7 +68,7 @@ func solution(_ k:Int, _ dungeons:[[Int]]) -> Int {
         // 방문하지 않았고, 현재 피로도로 방문 가능한 던전이면 탐색
         for i in 0..<dungeons.count {
             if isVisit[i] == false && needList[i] <= remain {
-                var newIsVisitList = isVisitList
+                var newIsVisitList = isVisit
                 newIsVisitList[i] = true
                 // 현재 피로도에서 소모 피로도를 차감하고, 방문 횟수 +1, 방문 이력 리스트에 던전 번호 추가
                 DFS(remain: remain - consumeList[i], depth: depth + 1, isVisit: newIsVisitList, playList: playList + [i])
@@ -79,8 +80,6 @@ func solution(_ k:Int, _ dungeons:[[Int]]) -> Int {
     
     return deepest
 }
-
-
 
 // 피로도 k는 1 이상 5,000 이하
 // 던전 갯수는 1 ~ 8
@@ -110,4 +109,9 @@ print(solution(k, dungeons))
 /// 각 던전 번호의 방문 여부를 저장하고, 각 던전 방문 경우의 수를 모두 재귀로 확인하여 가장 높은 탐색 횟수를 반환하도록 함
 /// 기본적인 구조는 짜여졌으나, 각 던전의 방문 여부를 저장함에도 불구하고, 한번 갔던 던전에 다시 가는 경우가 발생
 /// 동작 원리에 대해 정확하게 이해하지 못해서 문제점을 해결하지 못함
+///
+/// 4차 시도
+/// print를 배치해서 각 단계별 상태를 체크해보니, 방문 여부 리스트를 재귀 매개변수에서 받지 않고 첫 DFS 단계 상태로 계속 덮어씌운다는 것을 확인함
+/// 할당값을 이번 깊이에서 전달받은 방문 여부로 수정해서 해결!
+
 
