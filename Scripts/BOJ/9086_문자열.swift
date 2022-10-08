@@ -16,3 +16,9 @@ for _ in 1...Int(readLine()!)! {
 print(words
     .map{"\($0.first!)\($0.last!)"}
     .joined(separator: "\n"))
+
+
+
+let b = ["AE","\n","00","\n","CH"]
+
+let c = "AE\n00\nCH"
