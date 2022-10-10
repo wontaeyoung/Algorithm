@@ -1,14 +1,38 @@
+import Foundation
+
+// 5,9,13,22 시간 초과로 실패.
+
 func solution(_ N:Int, _ stages:[Int]) -> [Int]
 {
-    var stageFailRate = [(Int,Float)]()
-    var players = stages.count
-    for i in 1...N {
-        var remain : Int = 0
-        for user in stages {
-            if user == i {remain += 1}
+    var ans : [Int] = []
+    
+    var stageFailRate = [Int:Float]()
+    
+    for i in 1...N
+    {
+        if stages.filter{$0 >= i}.count != 0
+        {
+            stageFailRate[i] = Float(stages.filter{$0 == i}.count) / Float(stages.filter{$0 >= i}.count)
         }
-        stageFailRate.append((i,Float(remain) / Float(players)))
-        players -= remain
+        else
+        {
+            stageFailRate[i] = 0.0
+        }
     }
-    return stageFailRate.sorted{$0.1 > $1.1}.map{$0.0}
+
+    let sorted = stageFailRate.sorted
+    {
+        if $0.1 == $1.1
+        {
+            return $0.0 < $1.0
+        }
+        return $0.1 > $1.1
+    }
+    
+    for i in sorted
+    {
+        ans.append(i.key)
+    }
+    
+    return ans
 }
