@@ -1,3 +1,5 @@
+import Foundation
+
 func solution(_ month:Int, _ day:Int) -> String
 {
     // 요일의 종류를 담은 배열
@@ -42,3 +44,32 @@ func solution(_ month:Int, _ day:Int) -> String
     // 총 일수 % 7의 나머지를 index로 요일에 접근
     return days[farFrom % 7]
 }
+
+/*
+func solution(_ month:Int, _ day:Int) -> String {
+    return ["THU","FRI","SAT","SUN","MON","TUE","WED"][(
+        month == 1 ? day
+        : (1...month-1).map{[1,3,5,7,8,10,12].contains($0) ? 31 : 30}.reduce(0,+) + (month > 2 ? day - 1 : day)
+    ) % 7]
+}
+*/
+
+/*
+func solution(_ month:Int, _ day:Int) -> String {
+    
+    let days = ["THU","FRI","SAT","SUN","MON","TUE","WED"]
+    let month31 = [1,3,5,7,8,10,12]
+    
+    if month == 1 {
+        return days[day % 7]
+    }
+    
+    let preMonthDay = (1...month-1).map{month31.contains($0) ? 31 : 30}.reduce(0,+)
+    let totalDays = preMonthDay + (month > 2 ? day-1 : day)
+    
+    return days[totalDays % 7]
+}
+*/
+print(solution(5, 24))
+print(solution(1, 1))
+
